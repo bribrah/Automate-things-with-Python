@@ -23,8 +23,8 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
    'Montpelier', 'Virginia': 'Richmond', 'Washington': 'Olympia', 'West Virginia': 'Charleston', 'Wisconsin': 'Madison', 'Wyoming': 'Cheyenne'}
 
 for quizNum in range(35):
-    quizFile = open("capitalsquiz%s.txt" % (quizNum + 1), "w")
-    answerKeyFile = open("capitals_quiz%s_answers.txt" % (quizNum + 1) ,"w")
+    quizFile = open("Chapter 8\\generated_Quizzes\\capitalsquiz%s.txt" % (quizNum + 1), "w")
+    answerKeyFile = open("Chapter 8\\generated_Quizzes\\capitals_quiz%s_answers.txt" % (quizNum + 1) ,"w")
 
     quizFile.write('Name: \n Date: \n Period: \n\n')
     quizFile.write((' ' * 20) + 'State Capitols Quiz (Form %s)' % (quizNum + 1))
